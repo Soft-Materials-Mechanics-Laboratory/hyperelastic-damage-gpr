@@ -75,8 +75,6 @@ The notebooks in the notebooks/ folder are intended to reproduce the main result
 
 A recommended workflow is:
 
-Run the synthetic-data notebook(s) first
-
-Run the experimental-data notebook(s) next
-
-Compare generated figures and outputs with those reported in the manuscript
+1. Run the synthetic-data notebook(s) first
+2. Run the experimental-data notebook(s) next
+3. Compare generated figures and outputs with those reported in the manuscript
