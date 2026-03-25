@@ -106,6 +106,36 @@ Please note that minor numerical differences may occur depending on:
 - Package versions
 - Operating system
 - Random initialization (where applicable)
-- Please cite the original experimental study when using these data:
 
+---
 
+## Method Summary
+
+The constitutive modeling framework in this work combines physical structure and machine learning.
+
+At a high level:
+- The undamaged hyperelastic response is learned first
+- The damage behavior is then learned separately in a second stage
+- The final constitutive model combines these two learned components
+- The approach is designed to remain physically meaningful while retaining flexibility from data-driven modeling
+
+This structure allows the framework to capture progressive damage and failure while preserving interpretability.
+
+---
+
+## Recommended Citation
+
+Please cite this research as:
+
+````bash
+@article{Upadhyay2026,
+archivePrefix = {arXiv},
+arxivId = {2602.11414},
+author = {Upadhyay, Kshitiz},
+eprint = {2602.11414},
+keywords = {brain tissue mechanics,damage and failure,data-driven constitutive models,gaussian process regression,hyperelasticity,machine learning,physics-informed,soft materials},
+title = {{A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure}},
+url = {http://arxiv.org/abs/2602.11414},
+year = {2026}
+}
+````
