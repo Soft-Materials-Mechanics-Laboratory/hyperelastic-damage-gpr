@@ -152,7 +152,7 @@ See the `LICENSE` file for details.
 
 ## Author
 
-**Kshitiz Upadhyay, Ph.D.**
+**Kshitiz Upadhyay, Ph.D.** \
 Assistant Professor \
 Director of the Soft Materials Mechanics Laboratory \
 Department of Aerospace Engineering and Mechanics \
