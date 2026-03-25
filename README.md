@@ -56,3 +56,27 @@ This repository will include:
 ```bash
 git clone https://github.com/Soft-Materials-Mechanics-Laboratory/hyperelastic-damage-gpr.git
 cd hyperelastic-damage-gpr
+````
+
+### 2. Create the Python environment
+
+```bash
+conda env create -f environment.yml
+conda activate hyperelastic-damage-gpr
+````
+
+### 3. Launch Jupyter
+````bash
+jupyter lab
+````
+
+### 4. Run the notebooks
+The notebooks in the notebooks/ folder are intended to reproduce the main results of the manuscript.
+
+A recommended workflow is:
+
+Run the synthetic-data notebook(s) first
+
+Run the experimental-data notebook(s) next
+
+Compare generated figures and outputs with those reported in the manuscript
