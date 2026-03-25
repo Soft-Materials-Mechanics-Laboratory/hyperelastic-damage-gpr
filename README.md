@@ -139,3 +139,11 @@ url = {http://arxiv.org/abs/2602.11414},
 year = {2026}
 }
 ````
+
+---
+
+## License
+
+This repository is released under the MIT License.
+
+See the [LICENSE](LICENSE) file for details.
