@@ -94,9 +94,7 @@ This repository contains two categories of data:
 
 Please cite the original experimental study when using these data:
 
-G. Franceschini, D. Bigoni, P. Regitnig, G. A. Holzapfel,  
-*Brain tissue deforms similarly to filled elastomers and follows consolidation theory*,  
-*Journal of the Mechanics and Physics of Solids* 54 (12) (2006) 2592–2620.  
+G. Franceschini, D. Bigoni, P. Regitnig, G. A. Holzapfel, *Brain tissue deforms similarly to filled elastomers and follows consolidation theory*, *Journal of the Mechanics and Physics of Solids* 54 (12) (2006) 2592–2620. 
 doi:10.1016/j.jmps.2006.05.004
 
 ## Reproducibility
