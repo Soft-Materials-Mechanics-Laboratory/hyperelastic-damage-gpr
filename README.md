@@ -67,7 +67,7 @@ conda activate hyperelastic-damage-gpr
 ````
 
 ### 3. Launch Jupyter
-````bash
+```bash
 jupyter lab
 ````
 
@@ -127,7 +127,7 @@ This structure allows the framework to capture progressive damage and failure wh
 
 Please cite this research as:
 
-````bash
+```bibtex
 @article{Upadhyay2026,
 archivePrefix = {arXiv},
 arxivId = {2602.11414},
