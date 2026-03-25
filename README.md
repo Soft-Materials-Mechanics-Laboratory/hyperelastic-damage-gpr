@@ -146,4 +146,21 @@ year = {2026}
 
 This repository is released under the MIT License.
 
-See the [LICENSE](LICENSE) file for details.
+See the `LICENSE` file for details.
+
+---
+
+## Author
+
+**Kshitiz Upadhyay, Ph.D.**
+Assistant Professor
+Director of the Soft Materials Mechanics Laboratory
+Department of Aerospace Engineering and Mechanics
+University of Minnesota
+Email: kshitizu@umn.edu
+
+---
+
+## Acknowledgment
+
+This research is based upon work supported by the National Science Foundation under Grant No. 2331294. This repository was created to support open and reproducible research in constitutive modeling, soft material mechanics, and scientific machine learning.
