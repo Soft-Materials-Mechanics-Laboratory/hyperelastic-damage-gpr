@@ -97,7 +97,7 @@ G. Franceschini, D. Bigoni, P. Regitnig, G. A. Holzapfel, Brain tissue deforms s
 The goal of this repository is to make the main results of the paper transparent and reproducible.
 
 To improve reproducibility:
-- All required Python dependencies are listed in environment.yml
+- All required Python dependencies are listed in ```environment.yml
 - Notebooks are organized to follow the workflow used in the paper
 - Reusable code will be placed in the src/ directory
 - Input data and generated outputs are separated into dedicated folders
