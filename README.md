@@ -32,3 +32,27 @@ hyperelastic-damage-gpr/
 ├── environment.yml # Conda environment for reproducibility
 └── README.md       # Project overview and instructions
 
+
+---
+
+## Contents
+
+This repository will include:
+
+- Jupyter notebooks used to generate results for:
+  - synthetic data validation  
+  - application to experimental brain tissue datasets  
+- associated input datasets  
+- reusable Python source code extracted from the notebooks  
+- environment specification for reproducibility  
+- figures and outputs relevant to the manuscript  
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Soft-Materials-Mechanics-Laboratory/hyperelastic-damage-gpr.git
+cd hyperelastic-damage-gpr
