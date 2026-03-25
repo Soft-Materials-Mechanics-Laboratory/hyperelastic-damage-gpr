@@ -1,7 +1,6 @@
-# Source Code
+# Notebooks
 
-This folder contains reusable Python modules implementing:
+This folder contains Jupyter notebooks that reproduce the results in the paper.
 
-- Stage I GPR (intact response)
-- Stage II GPR (damage evolution)
-- Constitutive model evaluation
+1. Synthetic data validation
+2. Experimental data modeling
