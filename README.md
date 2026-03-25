@@ -88,6 +88,10 @@ This repository contains two categories of data:
 - Synthetic Data: Synthetic datasets are generated and/or used for model development, validation, and demonstration of the framework.
 - Experimental Data: Experimental brain tissue datasets included here were digitized from published literature using WebPlotDigitizer for the purpose of reproducing the analyses in this study.
 
+Please cite the original experimental study when using these data:
+
+G. Franceschini, D. Bigoni, P. Regitnig, G. A. Holzapfel, Brain tissue deforms similarly to filled elastomers and follows consolidation theory, Journal of the Mechanics and Physics of Solids 54 (12) (2006) 2592–2620. doi:10.1016/j.jmps.2006.05.004.
+
 ## Reproducibility
 
 The goal of this repository is to make the main results of the paper transparent and reproducible.
@@ -104,4 +108,4 @@ Please note that minor numerical differences may occur depending on:
 - Random initialization (where applicable)
 - Please cite the original experimental study when using these data:
 
-G. Franceschini, D. Bigoni, P. Regitnig, G. A. Holzapfel, Brain tissue deforms similarly to filled elastomers and follows consolidation theory, Journal of the Mechanics and Physics of Solids 54 (12) (2006) 2592–2620. doi:10.1016/j.jmps.2006.05.004.
+
