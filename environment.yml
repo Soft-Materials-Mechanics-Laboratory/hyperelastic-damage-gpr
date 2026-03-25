@@ -12,5 +12,4 @@ dependencies:
   - scikit-learn
   - jupyterlab
   - notebook
-  - pandas
-  - time
+  - openpyxl
