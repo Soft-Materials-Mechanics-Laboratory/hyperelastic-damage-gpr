@@ -72,7 +72,7 @@ jupyter lab
 ````
 
 ### 4. Run the notebooks
-The notebooks in the [notebooks/]notebooks/ folder are intended to reproduce the main results of the manuscript.
+The notebooks in the [notebooks/](notebooks/) folder are intended to reproduce the main results of the manuscript.
 
 A recommended workflow is:
 
