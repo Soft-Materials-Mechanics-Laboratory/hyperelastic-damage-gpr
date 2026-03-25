@@ -1,9 +1,11 @@
-# Hyperelastic Damage and Failure Modeling with Physics-Informed GPR
+# Hyperelastic Damage Modeling with Physics-Informed GPR
 
 This repository contains the code and data associated with the manuscript:
 
 **Upadhyay, K. (2026). A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure. arXiv Preprint arXiv:2602.11414.** 
 <https://doi.org/10.48550/arXiv.2602.11414>
+
+![Framework Overview](figures/framework.png)
 
 ---
 
@@ -11,8 +13,8 @@ This repository contains the code and data associated with the manuscript:
 
 This repository provides the implementation of a physics-informed, data-driven constitutive modeling framework for hyperelastic materials with progressive damage and failure. The framework uses **Gaussian Process Regression (GPR)** in two stages:
 
-1. **Stage I:** learn the constitutive response of the undamaged hyperelastic material
-2. **Stage II:** learn the damage evolution behavior and incorporate it into the final constitutive model
+1. **Stage I:** Learn the constitutive response of the undamaged hyperelastic material
+2. **Stage II:** Learn the damage evolution behavior and incorporate it into the final constitutive model
 
 The framework is developed and validated using **synthetic data**, and then applied to **experimental brain tissue data** digitized from the literature.
 
@@ -57,19 +59,19 @@ This repository will include:
 ```bash
 git clone https://github.com/Soft-Materials-Mechanics-Laboratory/hyperelastic-damage-gpr.git
 cd hyperelastic-damage-gpr
-````
+```
 
 ### 2. Create the Python environment
 
 ```bash
 conda env create -f environment.yml
 conda activate hyperelastic-damage-gpr
-````
+```
 
 ### 3. Launch Jupyter
 ```bash
 jupyter lab
-````
+```
 
 ### 4. Run the notebooks
 The notebooks in the `notebooks/` folder are intended to reproduce the main results of the manuscript.
@@ -90,7 +92,10 @@ This repository contains two categories of data:
 
 Please cite the original experimental study when using these data:
 
-G. Franceschini, D. Bigoni, P. Regitnig, G. A. Holzapfel, Brain tissue deforms similarly to filled elastomers and follows consolidation theory, Journal of the Mechanics and Physics of Solids 54 (12) (2006) 2592–2620. doi:10.1016/j.jmps.2006.05.004.
+G. Franceschini, D. Bigoni, P. Regitnig, G. A. Holzapfel,  
+*Brain tissue deforms similarly to filled elastomers and follows consolidation theory*,  
+*Journal of the Mechanics and Physics of Solids* 54 (12) (2006) 2592–2620.  
+doi:10.1016/j.jmps.2006.05.004
 
 ## Reproducibility
 
@@ -99,7 +104,7 @@ The goal of this repository is to make the main results of the paper transparent
 To improve reproducibility:
 - All required Python dependencies are listed in `environment.yml`
 - Notebooks are organized to follow the workflow used in the paper
-- Reusable code will be placed in the `src/` directory
+- Reusable code is organized in the `src/` directory
 - Input data and generated outputs are separated into dedicated folders
 
 Please note that minor numerical differences may occur depending on:
@@ -133,12 +138,12 @@ archivePrefix = {arXiv},
 arxivId = {2602.11414},
 author = {Upadhyay, Kshitiz},
 eprint = {2602.11414},
-keywords = {brain tissue mechanics,damage and failure,data-driven constitutive models,gaussian process regression,hyperelasticity,machine learning,physics-informed,soft materials},
+keywords = {brain tissue mechanics, damage and failure, data-driven constitutive models, gaussian process regression, hyperelasticity, machine learning, physics-informed, soft materials},
 title = {{A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure}},
 url = {http://arxiv.org/abs/2602.11414},
 year = {2026}
 }
-````
+```
 
 ---
 
