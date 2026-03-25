@@ -31,7 +31,7 @@ hyperelastic-damage-gpr/
 ├── results/        # Saved outputs, exported figures, and model results
 ├── environment.yml # Conda environment for reproducibility
 └── README.md       # Project overview and instructions
-
+```
 
 ---
 
