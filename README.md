@@ -1,4 +1,4 @@
-# Hyperelastic Damage Modeling with Physics-Informed GPR
+# Hyperelastic Damage and Failure Modeling with Physics-Informed GPR
 
 This repository contains the code and data associated with the manuscript:
 
