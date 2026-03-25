@@ -1,1 +1,16 @@
+name: hyperelastic-damage-gpr
 
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
+  - notebook
+  - pandas
+  - time
