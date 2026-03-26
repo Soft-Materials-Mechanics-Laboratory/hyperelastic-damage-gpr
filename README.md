@@ -127,24 +127,19 @@ To ensure reproducibility:
 - Reusable code is organized in the `src/` directory
 - Input data and generated outputs are separated into dedicated folders
 
-Please note that minor numerical differences may occur depending on:
-- Package versions
-- Operating system
-- Random initialization (where applicable)
-
 ---
 
 ## Important Notes
 
 - For exact reproduction of manuscript results, use requirements_paper.txt
-- Some numerical differences may occur due to variations in:
+- Under general use, some numerical differences may occur depending on:
   - package versions (especially scikit-learn, scipy)
   - operating system
   - optimization behavior in GPR
 - Always run notebooks using:
   - Restart & Run All
 
-Minor numerical differences may still arise across platforms due to floating-point arithmetic and backend libraries.
+Even when using the exact requirements, minor numerical differences may still arise across platforms due to floating-point arithmetic and backend libraries.
 
 ---
 
