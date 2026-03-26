@@ -39,7 +39,6 @@ hyperelastic-damage-gpr/
 ├── LICENSE                # License file
 └── README.md              # Project overview and instructions
 ```
-
 ---
 
 ## Contents
@@ -80,7 +79,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements_paper.txt
 ```
 
-🔹**Option 2: General use (Conda)**
+🔹 **Option 2: General use (Conda)**
 ```bash
 conda env create -f environment.yml
 conda activate hyperelastic-damage-gpr
