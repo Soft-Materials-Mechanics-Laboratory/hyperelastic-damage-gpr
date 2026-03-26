@@ -8,6 +8,10 @@ test_env_paper/
 __pycache__/
 *.pyc
 
+# Generated outputs
+results/*
+!results/README.md
+
 # Jupyter
 .ipynb_checkpoints/
 
