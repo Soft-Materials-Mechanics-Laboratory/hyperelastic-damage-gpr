@@ -67,9 +67,9 @@ cd hyperelastic-damage-gpr
 
 Two environment options are provided depending on your goal.
 
-🔹 Option 1: Exact reproduction of manuscript results (Recommended)
+🔹 **Option 1: Exact reproduction of manuscript results (Recommended)**
 
-The results reported in the manuscript were generated using the package versions listed in `requirements_paper.txt` with Python 3.13.
+The results reported in the manuscript were generated using the package versions listed in `requirements_paper.txt` with **Python 3.13**.
 
 To reproduce the exact numerical results:
 ```bash
@@ -79,9 +79,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements_paper.txt
 ```
 
-jupyter lab
-
-Option 2: General use (Conda)
+🔹**Option 2: General use (Conda)**
 ```bash
 conda env create -f environment.yml
 conda activate hyperelastic-damage-gpr
