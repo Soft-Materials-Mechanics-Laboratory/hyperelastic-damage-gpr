@@ -4,12 +4,12 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.11
-  - numpy
-  - scipy
-  - pandas
-  - matplotlib
-  - scikit-learn
+  - python=3.13
+  - numpy=2.3.2
+  - scipy=1.16.1
+  - pandas=2.3.3
+  - matplotlib=3.10.6
+  - scikit-learn=1.7.1
   - jupyterlab
   - notebook
   - openpyxl
