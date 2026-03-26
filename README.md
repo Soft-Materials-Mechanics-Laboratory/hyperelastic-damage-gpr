@@ -15,8 +15,8 @@ This repository contains the code and data associated with the manuscript:
 
 This repository provides the implementation of a physics-informed, data-driven constitutive modeling framework for hyperelastic materials with progressive damage and failure. The framework uses **Gaussian Process Regression (GPR)** in two stages:
 
-1. **Stage I:** Learn the constitutive response of the undamaged hyperelastic material
-2. **Stage II:** Learn the damage evolution behavior and incorporate it into the final constitutive model
+1. **Stage I:** Learn the constitutive response of the undamaged hyperelastic material  
+2. **Stage II:** Learn the damage evolution behavior and incorporate it into the final constitutive model  
 
 The framework is developed and validated using **synthetic data**, and then applied to **experimental brain tissue data** digitized from the literature.
 
@@ -29,13 +29,14 @@ The repository is organized to support transparency and reproducibility of the r
 ```text
 hyperelastic-damage-gpr/
 │
-├── data/           # Synthetic and experimental datasets
-├── notebooks/      # Jupyter notebooks reproducing paper results
-├── src/            # Reusable Python source files
-├── figures/        # Figures used in the README and generated outputs
-├── results/        # Saved outputs, exported figures, and model results
-├── environment.yml # Conda environment for reproducibility
-└── README.md       # Project overview and instructions
+├── data/                  # Synthetic and experimental datasets
+├── notebooks/             # Jupyter notebooks reproducing paper results
+├── src/                   # Reusable Python source files
+├── figures/               # Figures used in the README and generated outputs
+├── results/               # Saved outputs, exported figures, and model results
+├── environment.yml        # Conda environment (general use)
+├── requirements_paper.txt # Exact environment used for manuscript results
+└── README.md              # Project overview and instructions
 ```
 
 ---
@@ -62,7 +63,28 @@ This repository will include:
 git clone https://github.com/Soft-Materials-Mechanics-Laboratory/hyperelastic-damage-gpr.git
 cd hyperelastic-damage-gpr
 ```
+⚙️ Environment Setup
 
+Two environment options are provided depending on your goal.
+
+🔹 Option 1: General use (Conda)
+conda env create -f environment.yml
+conda activate hyperelastic-damage-gpr
+🔹 Option 2: Exact reproduction of manuscript results (Recommended)
+
+The results reported in the manuscript were generated using the package versions listed in:
+
+requirements_paper.txt
+
+with Python 3.13.
+
+To reproduce the exact numerical results:
+
+py -3.13 -m venv venv_paper
+venv_paper\Scripts\activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements_paper.txt
+jupyter lab
 ### 2. Create the Python environment
 
 ```bash
