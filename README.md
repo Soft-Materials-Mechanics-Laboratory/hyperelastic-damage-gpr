@@ -132,7 +132,7 @@ To ensure reproducibility:
 
 ## Important Notes
 
-- For exact reproduction of manuscript results, use requirements_paper.txt
+- For exact reproduction of manuscript results, use `requirements_paper.txt`
 - Under general use, some numerical differences may occur depending on:
   - package versions (especially scikit-learn, scipy)
   - operating system
