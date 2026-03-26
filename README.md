@@ -36,6 +36,7 @@ hyperelastic-damage-gpr/
 ├── results/               # Saved outputs, exported figures, and model results
 ├── environment.yml        # Conda environment (general use)
 ├── requirements_paper.txt # Exact environment used for manuscript results
+├── LICENSE                # License file
 └── README.md              # Project overview and instructions
 ```
 
