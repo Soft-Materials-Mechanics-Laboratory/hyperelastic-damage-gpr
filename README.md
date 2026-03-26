@@ -46,7 +46,7 @@ hyperelastic-damage-gpr/
 This repository will include:
 
 - Jupyter notebooks used to generate results for:
-  - synthetic data validation  
+  - model development and validation using synthetic data
   - application to experimental brain tissue datasets  
 - associated input datasets  
 - reusable Python source code extracted from the notebooks  
