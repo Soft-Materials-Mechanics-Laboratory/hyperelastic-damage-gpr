@@ -29,10 +29,10 @@ The repository is organized to support transparency and reproducibility of the r
 ```text
 hyperelastic-damage-gpr/
 │
-├── data/                  # Synthetic and experimental datasets
+├── data/                  # Experimental datasets (Synthetic datasets are generated directly within the notebook(s))
 ├── notebooks/             # Jupyter notebooks reproducing paper results
 ├── src/                   # Reusable Python source files
-├── figures/               # Figures used in the README and generated outputs
+├── figures/               # Figures used in the README and any static outputs
 ├── results/               # Saved outputs, exported figures, and model results
 ├── environment.yml        # Conda environment (general use)
 ├── requirements_paper.txt # Exact environment used for manuscript results
