@@ -2,7 +2,7 @@
 
 This repository contains the code and data associated with the manuscript:
 
-**Upadhyay, K. (2026). A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure. arXiv Preprint arXiv:2602.11414.** 
+**Upadhyay, K. (2026). A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure. arXiv Preprint arXiv:2602.11414.** \
 <https://doi.org/10.48550/arXiv.2602.11414>
 
 <p align="left">
@@ -15,8 +15,8 @@ This repository contains the code and data associated with the manuscript:
 
 This repository provides the implementation of a physics-informed, data-driven constitutive modeling framework for hyperelastic materials with progressive damage and failure. The framework uses **Gaussian Process Regression (GPR)** in two stages:
 
-1. **Stage I:** Learn the constitutive response of the undamaged hyperelastic material
-2. **Stage II:** Learn the damage evolution behavior and incorporate it into the final constitutive model
+1. **Stage I:** Learn the constitutive response of the undamaged hyperelastic material  
+2. **Stage II:** Learn the damage evolution behavior and incorporate it into the final constitutive model  
 
 The framework is developed and validated using **synthetic data**, and then applied to **experimental brain tissue data** digitized from the literature.
 
@@ -29,15 +29,16 @@ The repository is organized to support transparency and reproducibility of the r
 ```text
 hyperelastic-damage-gpr/
 │
-├── data/           # Synthetic and experimental datasets
-├── notebooks/      # Jupyter notebooks reproducing paper results
-├── src/            # Reusable Python source files
-├── figures/        # Figures used in the README and generated outputs
-├── results/        # Saved outputs, exported figures, and model results
-├── environment.yml # Conda environment for reproducibility
-└── README.md       # Project overview and instructions
+├── data/                  # Synthetic and experimental datasets
+├── notebooks/             # Jupyter notebooks reproducing paper results
+├── src/                   # Reusable Python source files
+├── figures/               # Figures used in the README and generated outputs
+├── results/               # Saved outputs, exported figures, and model results
+├── environment.yml        # Conda environment (general use)
+├── requirements_paper.txt # Exact environment used for manuscript results
+├── LICENSE                # License file
+└── README.md              # Project overview and instructions
 ```
-
 ---
 
 ## Contents
@@ -62,23 +63,39 @@ This repository will include:
 git clone https://github.com/Soft-Materials-Mechanics-Laboratory/hyperelastic-damage-gpr.git
 cd hyperelastic-damage-gpr
 ```
+### 2. Setup environment
 
-### 2. Create the Python environment
+Two environment options are provided depending on your goal.
 
+🔹 **Option 1: Exact reproduction of manuscript results (Recommended)**
+
+The results reported in the manuscript were generated using the package versions listed in `requirements_paper.txt` with **Python 3.13**.
+
+To reproduce the exact numerical results:
+```bash
+py -3.13 -m venv venv_paper
+venv_paper\Scripts\activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements_paper.txt
+```
+
+🔹 **Option 2: General use (Conda)**
 ```bash
 conda env create -f environment.yml
 conda activate hyperelastic-damage-gpr
 ```
 
-### 3. Launch Jupyter
+### 3. Run the code
+1. Run jupyter
 ```bash
 jupyter lab
 ```
+2. Open notebooks in the `notebooks/` folder.
+3. Run notebooks using: Kernel → Restart & Run All
 
-### 4. Run the notebooks
-The notebooks in the `notebooks/` folder are intended to reproduce the main results of the manuscript.
+---
 
-A recommended workflow is:
+## Recommended Workflow
 
 1. Run the synthetic-data notebook(s) first
 2. Run the experimental-data notebook(s) next
@@ -89,8 +106,10 @@ A recommended workflow is:
 ## Data
 
 This repository contains two categories of data:
-- **Synthetic Data:** Synthetic datasets are generated directly within the notebook(s) and/or supporting source code used for model development, validation, and demonstration of the framework. This allows users to modify data-generation settings such as parameter ranges, sampling density, and noise levels while preserving reproducibility through documented settings and fixed random seeds.
-- **Experimental Data:** Experimental brain tissue datasets included here were digitized from published literature using WebPlotDigitizer for the purpose of reproducing the analyses in this study.
+- **Synthetic Data:** \
+  Synthetic datasets are generated directly within the notebook(s) and/or supporting source code used for model development, validation, and demonstration of the framework. This allows users to modify data-generation settings such as parameter ranges, sampling density, and noise levels while preserving reproducibility through documented settings.
+- **Experimental Data:** \
+  Experimental brain tissue datasets included here were digitized from published literature using WebPlotDigitizer for the purpose of reproducing the analyses in this study.
 
 Please cite the original experimental study when using these data:
 
@@ -101,16 +120,26 @@ doi:10.1016/j.jmps.2006.05.004
 
 The goal of this repository is to make the main results of the paper transparent and reproducible.
 
-To improve reproducibility:
-- All required Python dependencies are listed in `environment.yml`
-- Notebooks are organized to follow the workflow used in the paper
+To ensure reproducibility:
+- The exact package versions used in the manuscript are provided in `requirements_paper.txt`
+- A Conda environment (`environment.yml`) is provided for general usage
+- All notebooks are structured to run end-to-end from a clean kernel
 - Reusable code is organized in the `src/` directory
 - Input data and generated outputs are separated into dedicated folders
 
-Please note that minor numerical differences may occur depending on:
-- Package versions
-- Operating system
-- Random initialization (where applicable)
+---
+
+## Important Notes
+
+- For exact reproduction of manuscript results, use `requirements_paper.txt`
+- Under general use, some numerical differences may occur depending on:
+  - package versions (especially scikit-learn, scipy)
+  - operating system
+  - optimization behavior in GPR
+- Always run notebooks using:
+  - Restart & Run All
+
+Even when using the exact requirements, minor numerical differences may still arise across platforms due to floating-point arithmetic and backend libraries.
 
 ---
 
