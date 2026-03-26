@@ -137,14 +137,16 @@ Please note that minor numerical differences may occur depending on:
 ## Important Notes
 
 - For exact reproduction of manuscript results, use requirements_paper.txt
-- Some numerical differences may occur due to variation in:
-  -- package versions (especially scikit-learn, scipy)
-  -- optimization behavior in GPR
-- Random seeds are fixed in the notebooks to reduce variability
+- Some numerical differences may occur due to variations in:
+  - package versions (especially scikit-learn, scipy)
+  - operating system
+  - optimization behavior in GPR
 - Always run notebooks using:
-  -- Restart & Run All
+  - Restart & Run All
 
 Minor numerical differences may still arise across platforms due to floating-point arithmetic and backend libraries.
+
+---
 
 ## Method Summary
 
