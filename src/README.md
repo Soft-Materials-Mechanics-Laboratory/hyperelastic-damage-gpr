@@ -16,8 +16,8 @@ Two sets of modules are provided to reflect a key modeling distinction between s
 
 - The material response includes **both volumetric and isochoric contributions**
 - Stage I learns:
-  - volumetric response function ($\zeta_1$)
-  - isochoric response functions (\Gamma₁, \Gamma₂)
+  - volumetric response function ($\zeta$)
+  - isochoric response functions ($\Gamma_1, \Gamma_2$)
 - No incompressibility constraint is imposed
 
 ---
@@ -27,7 +27,7 @@ Two sets of modules are provided to reflect a key modeling distinction between s
 - The material response is assumed **incompressible (J = 1)**
 - The volumetric response is **not learned explicitly**
 - A **Lagrange multiplier enforces incompressibility** through boundary conditions
-- Stage I is modified to learn **only the isochoric response functions (\Gamma₁, \Gamma₂)**
+- Stage I is modified to learn **only the isochoric response functions ($\Gamma_1, \Gamma_2$)**
 
 This leads to separate implementations of:
 
