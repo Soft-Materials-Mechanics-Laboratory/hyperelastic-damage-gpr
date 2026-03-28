@@ -34,3 +34,12 @@ The details of individual datasets are as follows:
 - Cut direction: Frontal
 - Source: Franceschini et al. (2006)  
 - Digitized using WebPlotDigitizer
+
+### WM-p (White Matter from parietal lobe)
+- File: `brain_wm_p.csv`
+- Tissue type: White matter  
+- Region: Parietal lobe
+- Specimen geometry: Prismatic (13mm/8mm)
+- Cut direction: Frontal
+- Source: Franceschini et al. (2006)  
+- Digitized using WebPlotDigitizer
