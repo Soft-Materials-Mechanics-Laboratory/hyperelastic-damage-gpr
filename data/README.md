@@ -8,7 +8,7 @@ Note that experimental data of brain tissue tensile tests were digitized from Fr
 
 The details of individual datasets are as follows:
 
-### GM--1 (Gray Matter 1)
+### GM–1 (Gray Matter 1)
 - File: `brain_gm1.csv`
 - Tissue type: Gray matter  
 - Region: Thalamus
