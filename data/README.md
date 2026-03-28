@@ -17,3 +17,20 @@ The details of individual datasets are as follows:
 - Source: Franceschini et al. (2006)  
 - Digitized using WebPlotDigitizer
 
+### GM–2 (Gray Matter 2)
+- File: `brain_gm2.csv`
+- Tissue type: Gray matter  
+- Region: Thalamus
+- Specimen geometry: Cylindrical (14mm/8mm)
+- Cut direction: Saggital
+- Source: Franceschini et al. (2006)  
+- Digitized using WebPlotDigitizer
+
+### WM-o (White Matter from Occipital lobe)
+- File: `brain_wm_o.csv`
+- Tissue type: White matter  
+- Region: Occipital lobe
+- Specimen geometry: Prismatic (14mm/9.5mm)
+- Cut direction: Frontal
+- Source: Franceschini et al. (2006)  
+- Digitized using WebPlotDigitizer
