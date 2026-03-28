@@ -13,7 +13,7 @@ The details of individual datasets are as follows:
 - Tissue type: Gray matter  
 - Region: Thalamus
 - Specimen geometry: Cylindrical (15mm/9.8mm)
-- Cut direction: Saggital
+- Harvesting direction: Saggital
 - Source: Franceschini et al. (2006)  
 - Digitized using WebPlotDigitizer
 
@@ -22,7 +22,7 @@ The details of individual datasets are as follows:
 - Tissue type: Gray matter  
 - Region: Thalamus
 - Specimen geometry: Cylindrical (14mm/8mm)
-- Cut direction: Saggital
+- Harvesting direction: Saggital
 - Source: Franceschini et al. (2006)  
 - Digitized using WebPlotDigitizer
 
@@ -31,7 +31,7 @@ The details of individual datasets are as follows:
 - Tissue type: White matter  
 - Region: Occipital lobe
 - Specimen geometry: Prismatic (14mm/9.5mm)
-- Cut direction: Frontal
+- Harvesting direction: Frontal
 - Source: Franceschini et al. (2006)  
 - Digitized using WebPlotDigitizer
 
@@ -40,6 +40,6 @@ The details of individual datasets are as follows:
 - Tissue type: White matter  
 - Region: Parietal lobe
 - Specimen geometry: Prismatic (13mm/8mm)
-- Cut direction: Frontal
+- Harvesting direction: Frontal
 - Source: Franceschini et al. (2006)  
 - Digitized using WebPlotDigitizer
