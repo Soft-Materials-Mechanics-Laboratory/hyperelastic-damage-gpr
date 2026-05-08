@@ -2,7 +2,7 @@
 
 This repository contains the code and data associated with the manuscript:
 
-**Upadhyay, K. (2026). A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure. Mechanics of Materials, 218, 105680.** \
+**Upadhyay, K. (2026). A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure. _Mechanics of Materials_. 218, 105680.** \
 <https://doi.org/10.1016/j.mechmat.2026.105680>
 
 <p align="left">
