@@ -2,8 +2,8 @@
 
 This repository contains the code and data associated with the manuscript:
 
-**Upadhyay, K. (2026). A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure. arXiv Preprint arXiv:2602.11414.** \
-<https://doi.org/10.48550/arXiv.2602.11414>
+**Upadhyay, K. (2026). A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure. Mechanics of Materials, 218, 105680.** \
+<https://doi.org/10.1016/j.mechmat.2026.105680>
 
 <p align="left">
   <img src="figures/Figure_Modeling_Framework.png" width="75%">
@@ -162,15 +162,18 @@ This structure allows the framework to capture progressive damage and failure wh
 Please cite this research as:
 
 ```bibtex
-@article{Upadhyay2026,
-archivePrefix = {arXiv},
-arxivId = {2602.11414},
-author = {Upadhyay, Kshitiz},
-eprint = {2602.11414},
-keywords = {brain tissue mechanics, damage and failure, data-driven constitutive models, gaussian process regression, hyperelasticity, machine learning, physics-informed, soft materials},
-title = {{A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure}},
-url = {http://arxiv.org/abs/2602.11414},
-year = {2026}
+@article{UPADHYAY2026105680,
+title = {A physics-informed data-driven framework for modeling hyperelastic materials with progressive damage and failure},
+journal = {Mechanics of Materials},
+volume = {218},
+pages = {105680},
+year = {2026},
+issn = {0167-6636},
+doi = {https://doi.org/10.1016/j.mechmat.2026.105680},
+url = {https://www.sciencedirect.com/science/article/pii/S0167663626000840},
+author = {Kshitiz Upadhyay},
+keywords = {Data-driven constitutive models, Hyperelasticity, Damage and failure, Physics-informed machine learning, Gaussian process regression, Soft materials, Brain tissue mechanics},
+abstract = {This work presents a two-stage physics-informed, data-driven constitutive modeling framework for hyperelastic soft materials undergoing progressive damage and failure. The framework is grounded in the concept of hyperelasticity with energy limiters and employs Gaussian Process Regression (GPR) to separately learn the intact (undamaged) elastic response and damage evolution directly from data. In Stage I, GPR models learn the intact hyperelastic response through volumetric and isochoric response functions (or only the isochoric response under incompressibility), ensuring energetic consistency of the intact response and satisfaction of fundamental principles such as material frame indifference and balance of angular momentum. In Stage II, damage is modeled via a separate GPR model that learns the mapping between the intact strain energy density predicted by Stage I models and a stress-reduction factor governing damage and failure, with monotonicity, non-negativity, and complete-failure constraints enforced through penalty-based optimization to ensure thermodynamic admissibility. Validation on synthetic datasets, including benchmarking against analytical constitutive models and competing data-driven approaches, demonstrates high in-distribution accuracy under uniaxial tension and robust generalization from limited training data to compression and shear modes not used during training. Application to experimental brain tissue data demonstrates the practical applicability of the framework and enables inference of damage evolution and critical failure energy. Overall, the proposed framework combines the physical consistency, interpretability, and generalizability of analytical models with the flexibility, predictive accuracy, and automation of machine learning, offering a powerful approach for modeling failure in soft materials under limited experimental data. The developed source code, discovered models, and accompanying datasets are available at https://github.com/Soft-Materials-Mechanics-Laboratory/hyperelastic-damage-gpr.}
 }
 ```
 
